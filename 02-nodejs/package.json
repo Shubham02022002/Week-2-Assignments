@@ -6,9 +6,9 @@
   "scripts": {
     "test": "jest",
     "test-authenticationServer": "npx jest --config jest.config.js ./tests/authenticationServer.test.js",
-    "test-fileServer": "./node_modules/jest/bin/jest.js ./tests/fileServer.test.js",
-    "test-todoServer": "./node_modules/jest/bin/jest.js ./tests/todoServer.test.js",
-    "test-all": "./node_modules/jest/bin/jest.js ./tests/"
+    "test-fileServer": "npx jest --config jest.config.js ./tests/fileServer.test.js",
+    "test-todoServer": "npx jest --config jest.config.js ./tests/todoServer.test.js",
+    "test-all": "npx jest --config jest.config.js ./tests/"
   },
   "keywords": [],
   "author": "",
