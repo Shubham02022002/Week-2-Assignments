@@ -8,7 +8,9 @@
     "test-authenticationServer": "npx jest --config jest.config.js ./tests/authenticationServer.test.js",
     "test-fileServer": "npx jest --config jest.config.js ./tests/fileServer.test.js",
     "test-todoServer": "npx jest --config jest.config.js ./tests/todoServer.test.js",
-    "test-all": "npx jest --config jest.config.js ./tests/"
+    "test-todoServerfile": "npx jest --config jest.config.js ./tests/todoServer.test.js",
+    "test-all": "npx jest --config jest.config.js ./tests/",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
